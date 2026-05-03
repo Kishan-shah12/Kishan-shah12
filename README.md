@@ -492,52 +492,143 @@ graph TB
 
 ---
 
-## 🎮 Developer in Action
+## 🎮 Developer in Action - Live Animation
+
+<svg width="100%" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 10px;">
+  <defs>
+    <style>
+      @keyframes typing { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-15px); } }
+      @keyframes glow { 0%, 100% { filter: drop-shadow(0 0 5px rgba(255, 107, 107, 0.5)); } 50% { filter: drop-shadow(0 0 15px rgba(255, 107, 107, 1)); } }
+      @keyframes slide { 0% { transform: translateX(-20px); opacity: 0; } 50% { opacity: 1; } 100% { transform: translateX(20px); opacity: 0; } }
+      @keyframes pulse { 0%, 100% { r: 6; } 50% { r: 10; } }
+      @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      
+      .cursor { animation: typing 0.8s infinite; }
+      .floater { animation: float 3s ease-in-out infinite; }
+      .glowing { animation: glow 2s ease-in-out infinite; }
+      .slider { animation: slide 2s ease-in-out infinite; }
+      .pulsing { animation: pulse 1.5s ease-in-out infinite; }
+      .spinner { animation: spin 4s linear infinite; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+  
+  <!-- Monitor -->
+  <rect x="150" y="80" width="500" height="320" rx="20" fill="#0a0e27" stroke="#ff107f" stroke-width="3"/>
+  <rect x="160" y="90" width="480" height="300" rx="15" fill="#1a1a2e"/>
+  
+  <!-- Screen Content - Code Lines -->
+  <text x="180" y="130" fill="#00ff00" font-family="'Courier New'" font-size="16" class="glowing">
+    <tspan>public class Solution {</tspan>
+  </text>
+  <text x="200" y="160" fill="#ffff00" font-family="'Courier New'" font-size="14">
+    <tspan>💻 Algorithm</tspan>
+    <tspan class="slider" style="animation-delay: 0s;">●</tspan>
+  </text>
+  <text x="200" y="190" fill="#00ccff" font-family="'Courier New'" font-size="14">
+    <tspan>🚀 Optimization</tspan>
+    <tspan class="slider" style="animation-delay: 0.5s;">●</tspan>
+  </text>
+  <text x="200" y="220" fill="#ff6bbc" font-family="'Courier New'" font-size="14">
+    <tspan>✨ Performance</tspan>
+    <tspan class="slider" style="animation-delay: 1s;">●</tspan>
+  </text>
+  <text x="180" y="280" fill="#00ff00" font-family="'Courier New'" font-size="16">
+    <tspan>}</tspan>
+    <tspan class="cursor" dx="5">│</tspan>
+  </text>
+  
+  <!-- Monitor Stand -->
+  <rect x="320" y="410" width="160" height="30" rx="10" fill="#0a0e27" stroke="#ff107f" stroke-width="2"/>
+  <rect x="350" y="440" width="100" height="20" rx="5" fill="#ff107f" opacity="0.3"/>
+  
+  <!-- Developer Figure -->
+  <circle cx="120" cy="350" r="25" fill="#fab1a0" class="floater"/>
+  <circle cx="120" cy="375" r="8" fill="#fab1a0" class="floater"/>
+  <!-- Arms -->
+  <line x1="95" y1="360" x2="70" y2="390" stroke="#fab1a0" stroke-width="6" class="floater" style="animation-delay: 0.3s;"/>
+  <line x1="145" y1="360" x2="170" y2="390" stroke="#fab1a0" stroke-width="6" class="floater" style="animation-delay: 0.6s;"/>
+  <!-- Keyboard -->
+  <rect x="80" y="415" width="80" height="40" rx="5" fill="#2a2a3e" stroke="#00ff00" stroke-width="2"/>
+  
+  <!-- Floating Code Elements -->
+  <circle cx="650" cy="150" r="6" fill="#ff6b6b" class="pulsing glowing" style="animation-delay: 0s;"/>
+  <circle cx="680" cy="200" r="6" fill="#4ecdc4" class="pulsing glowing" style="animation-delay: 0.5s;"/>
+  <circle cx="630" cy="250" r="6" fill="#45b7d1" class="pulsing glowing" style="animation-delay: 1s;"/>
+  <circle cx="700" cy="300" r="6" fill="#a29bfe" class="pulsing glowing" style="animation-delay: 1.5s;"/>
+  
+  <!-- Connecting Lines -->
+  <line x1="650" y1="150" x2="650" y2="300" stroke="#0ff" stroke-width="1" opacity="0.3" class="slider"/>
+  <line x1="630" y1="250" x2="700" y2="300" stroke="#ff107f" stroke-width="1" opacity="0.3" class="slider" style="animation-delay: 0.5s;"/>
+  
+  <!-- Status Indicators -->
+  <circle cx="50" cy="520" r="8" fill="#00ff00" class="pulsing"/>
+  <text x="70" y="530" fill="#00ff00" font-family="Arial" font-size="16" font-weight="bold">ACTIVE</text>
+  
+  <circle cx="200" cy="520" r="8" fill="#ffff00" class="pulsing" style="animation-delay: 0.3s;"/>
+  <text x="220" y="530" fill="#ffff00" font-family="Arial" font-size="16" font-weight="bold">CODING</text>
+  
+  <circle cx="380" cy="520" r="8" fill="#ff6b6b" class="pulsing" style="animation-delay: 0.6s;"/>
+  <text x="400" y="530" fill="#ff6b6b" font-family="Arial" font-size="16" font-weight="bold">BUILDING</text>
+  
+  <!-- Text Labels -->
+  <text x="150" y="570" fill="#0ff" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">💻 Writing Clean Code → 🚀 Deploying Solutions</text>
+  <text x="650" y="570" fill="#ff6b6b" font-family="Arial" font-size="14" text-anchor="middle">🎯 Problem Solving in Action</text>
+</svg>
+
+### 🎨 Animation Explanation:
+
+- **💻 Monitor Screen**: Shows live code with real-time elements
+- **🎯 Floating Nodes**: Pulsing and glowing code elements representing active processes
+- **👨‍💻 Developer**: Floating animation showing active development
+- **⌨️ Keyboard**: Your coding interface
+- **🟢 Status Indicators**: Real-time activity status (ACTIVE, CODING, BUILDING)
+- **✨ Glow Effects**: Highlighting code quality and performance
+- **🎬 Smooth Animations**: Continuous smooth transitions like a live GIF
+
+---
+
+## 🚀 What's Happening Right Now
 
 ```
-╔════════════════════════════════════════════════════════════════════════════╗
-║                                                                            ║
-║     🎮  ███╗   ███╗██╗   ██╗██╗     ████╗████╗ ███╗ ██║                  ║
-║         ████╗ ████║██║   ██║██║    ██╔════║████║ ██║ ██║                  ║
-║     🎯  ██╔████╔██║██║   ██║██║    ██║    ║██╔═╝ ██║ ██║    🚀            ║
-║         ██║  ██║ ██║██║   ██║██║    ██║    ║██║   ██║ ██║                  ║
-║     ⚡  ██║  ██║ ██║ ██████╔╝██║     ╚████╗║██║   ██║ ██║   💻            ║
-║         ╚═╝  ╚═╝ ╚═╝  ╔════╗ ╚═╝      ╚═══╝╚═╝   ╚═╝ ╚═╝                  ║
-║              🖥️  CODING IN ACTION  🖥️                                      ║
-║                                                                            ║
-║   ╔─────────────────────────────────────────────────────────────────╗    ║
-║   │  👨‍💻 Developer                                                   │    ║
-║   │  💻 Building Real Solutions                                     │    ║
-║   │  🔧 Writing Clean Code                                         │    ║
-║   │  🚀 Deploying Amazing Projects                                 │    ║
-║   │  📈 Always Improving & Learning                                │    ║
-║   │  ⚡ Performance Focused                                         │    ║
-║   │  🎯 Problem Solver                                             │    ║
-║   │  ✨ Creating Excellence                                        │    ║
-║   └─────────────────────────────────────────────────────────────────┘    ║
-║                                                                            ║
-║          🎯 Problem  →  💭 Analyze  →  🔧 Code  →  ✅ Deploy  →  🎉 ║
-║                                                                            ║
-║   Current Status: 🟢 ACTIVE | Focus: 🎓 Learning | Mode: 🚀 Building     ║
-║                                                                            ║
-╚════════════════════════════════════════════════════════════════════════════╝
+       LIVE DEVELOPMENT CYCLE
+       
+    Start → Code → Test → Debug → Deploy → Success
+      ↓      ⬆️      ↓       ↓       ↓        ↓
+      └──────────────────────────────────────┘
+      
+    🟢 Status: ACTIVELY BUILDING
+    💡 Focus: Clean Code & Optimization
+    ⚡ Speed: Maximum Performance
+    🎯 Goal: Excellence in Every Line
 ```
 
-### 🌟 Development Philosophy
+### Current Projects in Development:
 
-- **Code Quality First** ⭐ - Writing maintainable, clean, readable code
-- **Problem Solving** 🧩 - Breaking down complex challenges into elegant solutions
-- **Continuous Learning** 📚 - Always exploring new technologies and best practices
-- **Performance Matters** ⚡ - Optimizing algorithms and system design
-- **User Experience** 🎯 - Building solutions that solve real problems
+```
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  Hospital Management System        ▓▓▓▓░  │
+┃  Design Patterns Implementation    ▓▓▓▓▓  │
+┃  Algorithms & DSA Collection       ▓▓▓▓░  │
+┃  Full-Stack Web Application        ▓▓░░░  │
+┃  Open Source Contributions         ▓▓░░░  │
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+```
+
+---
 
 *Building amazing solutions, one commit at a time!* 💻✨
 
 ```
     ╭─────────────────────────────────────────────────╮
-    │  🎮 Gaming at desk  🎯 Focused coding session   │
-    │  💡 Debugging flow   ✨ Creative problem solve  │
-    │  🚀 Deploying code   📊 Analyzing performance  │
+    │  🎮 Coding Session Active                       │
+    │  💡 Problem-solving flow                        │
+    │  🔧 Debugging & Optimization                    │
+    │  ✨ Creating Clean, Efficient Code              │
+    │  🚀 Ready to Deploy                             │
     ╰─────────────────────────────────────────────────╯
 ```
 
