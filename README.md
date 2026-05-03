@@ -494,9 +494,32 @@ graph TB
 
 ## 🎮 Developer in Action
 
-![Developer Working - Pixel Art](https://media.giphy.com/media/L1R1tvI9svkIWoLEqr/giphy.gif)
+<div align="center">
+  
+### Coding in Action ⚡
+
+```
+┌─────────────────────────────────────┐
+│  💻 Writing Code                    │
+│  🔄 Building Solutions              │
+│  🚀 Deploying Projects              │
+│  📈 Improving Always                │
+└─────────────────────────────────────┘
+```
+
+### Current Status: 🟢 Active & Learning
+
+</div>
 
 *Building amazing solutions, one commit at a time!* 💻✨
+
+<div align="center">
+  
+```
+🎯 Problem → 💭 Analyze → 🔧 Code → ✅ Deploy → 🎉 Success
+```
+
+</div>
 
 ---
 
