@@ -492,5 +492,13 @@ graph TB
 
 ---
 
+## 🎮 Developer in Action
+
+![Developer Working - Pixel Art](https://media.giphy.com/media/L1R1tvI9svkIWoLEqr/giphy.gif)
+
+*Building amazing solutions, one commit at a time!* 💻✨
+
+---
+
 **Last Updated**: May 2026  
 *This README reflects my passion for software development and commitment to excellence.*
