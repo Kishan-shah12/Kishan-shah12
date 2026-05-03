@@ -225,18 +225,18 @@ graph LR
 
 ```mermaid
 stateDiagram-v2
-    [*] --> Initialize: Load Data
+    [*] --> Initialize
     Initialize --> Validate: Check Input
     Validate --> Process: Transform
     Process --> Compute: Execute Algorithm
     Compute --> Optimize: Refine Output
     Optimize --> Output: Generate Result
-    Output --> [*]: Complete
+    Output --> [*]
     
-    Process -.Success.-> Compute: Valid Data
-    Compute -.Efficiency.-> Optimize: Performance Check
-    Optimize -.Ready.-> Output: Final Result
-    Validate -.Error.-> Initialize: Invalid Input
+    Validate --> Initialize: Invalid Input
+    note right of Compute
+        Performance Check
+    end note
 ```
 
 ---
