@@ -8,7 +8,7 @@ Welcome to my GitHub profile! I'm a passionate software developer with strong ex
 
 I'm dedicated to writing clean, efficient, and maintainable code. My interests span from competitive programming to building scalable applications. I love solving complex problems and continuously improving my craft through learning and practice.
 
-- 🎯 **Focus Areas**: Java, DSA, Design Patterns, Web Development
+- 🎯 **Focus Areas**: Java, DSA, Design Patterns, Web Development, DBMS, Software Project Management
 - 💻 **Languages**: Java, JavaScript, HTML/CSS, SQL
 - 🌱 **Currently Learning**: Advanced Algorithms and System Design
 - 📍 **Location**: India
