@@ -325,9 +325,9 @@ Feel free to explore my repositories to see more of my work. I'm constantly upda
 
 ## 🤝 Let's Connect
 
-- 📧 Email: [Your Email]
-- 💼 LinkedIn: [Your LinkedIn Profile]
-- 🐦 Twitter: [Your Twitter Handle]
+- 📧 Email: Kishansah574@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/kishan-sah-b97a73315/
+- 🐦 Twitter: N/A
 - 💬 Discuss: Open to collaborations and technical discussions
 
 ---
