@@ -357,11 +357,6 @@ If you find any of my projects useful or interesting, please give them a star! I
 
 ---
 
-**Last Updated**: May 2026  
-*This README reflects my passion for software development and commitment to excellence.*
-
----
-
 ## 🌐 How to Navigate & Interact
 
 ### Animated Skill Mastery Progression
