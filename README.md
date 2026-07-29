@@ -666,16 +666,6 @@ graph TB
 
 ## 📊 GitHub Activity
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Kishan-shah12&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&border_radius=12" height="180" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kishan-shah12&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" height="180" alt="Top Languages" />
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Kishan-shah12&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub Streak" />
 
 </div>
 
