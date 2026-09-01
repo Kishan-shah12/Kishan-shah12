@@ -667,14 +667,6 @@ graph TB
 ## 📊 GitHub Activity
 
 
-</div>
-
-<div align="center">
-  
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kishan-shah12&theme=tokyo-night&hide_border=true&area=true&radius=16&line=7aa2f7&point=ffffff" width="100%" alt="Contribution Graph" />
-
-</div>
-
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Contribution Snake Animation" />
